@@ -1,0 +1,26 @@
+body {
+  animation: transitionIn 0.75s;
+}
+
+
+button {
+  box-shadow: 0 0 5px rgb(0, 0, 0), 0 0 25px cyan;
+}
+button:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+h3 {
+  position: absolute;
+  text-align: center;
+  top: 20px;
+}
+
